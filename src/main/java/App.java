@@ -25,7 +25,7 @@ public class App {
             System.out.println("Roll #1: " + diceRoleOne);
             System.out.println("Roll #2: " + diceRoleTwo);
 
-            System.out.println("The total is " + (diceRoleOne + diceRoleTwo) +"!");
+            System.out.println("The total is " + (diceRoleOne + diceRoleTwo) +"!\n");
 
         }while (diceRoleOne != diceRoleTwo);
 
