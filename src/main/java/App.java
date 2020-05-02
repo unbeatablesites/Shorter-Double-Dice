@@ -15,14 +15,17 @@ public class App {
         Random rand = new Random();
         Random rand2 = new Random();
 
+        int diceRoleOne = rand.nextInt(6);
+        int diceRoleTwo = rand2.nextInt(6);
+
         do {
 
-            int diceRoleOne2 = 1 + rand.nextInt(6);
-            int diceRoleTwo1 = 1 + rand2.nextInt(6);
-            System.out.println("Roll #1: " + diceRoleOne2);
-            System.out.println("Roll #2: " + diceRoleTwo1);
+            diceRoleOne = 1 + rand.nextInt(6);
+            diceRoleTwo = 1 + rand2.nextInt(6);
+            System.out.println("Roll #1: " + diceRoleOne);
+            System.out.println("Roll #2: " + diceRoleTwo);
 
-        }while (diceRoleOne2 != diceRoleTwo1);
+        }while (diceRoleOne != diceRoleTwo);
 
 
 
