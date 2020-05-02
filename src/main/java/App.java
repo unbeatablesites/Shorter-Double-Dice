@@ -18,8 +18,6 @@ public class App {
         int diceRoleOne = 1 + rand.nextInt(6);
         int diceRoleTwo = 1 + rand.nextInt(6);
 
-
-
     }
 
 }
